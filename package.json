@@ -1,0 +1,20 @@
+{
+  "name": "eneb-schedule",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Scrape the UMD Testudo Schedule of Classes for the ENEB cohort program and render two Mon-Fri weekly timetables (Junior = Semester 1, Senior = Semester 3), each class block labelled with its professor.",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "test": "tsx src/parse.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "node-html-parser": "^6.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0"
+  }
+}
