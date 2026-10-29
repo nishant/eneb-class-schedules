@@ -7,6 +7,9 @@ GitHub Pages; preview it with `node serve.mjs` (http://localhost:4599).
   ~840px). Every page must look right, with no horizontal page scroll, at 360px (not just
   375/390), ~840px and desktop, in light and dark, with 44px touch targets. Check in a browser
   at those widths before calling UI work done.
+- Every page must be reachable on the phone through a visible UI element (bottom bar, More
+  sheet, menu, or a link on another page), never only by typing its URL: no desktop-only nav
+  entries, and no page that tells a phone user to open it on a desktop.
 
 ## Autonomy
 
